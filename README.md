@@ -1,4 +1,4 @@
-# Kannada-E-Mag <img src="https://media.baamboozle.com/uploads/images/49617/1632503260_172420_gif-url.gif" width="39px">
+# Kannada-E-Mag 📚
 ## Description
 A tool which downloads magazine PDF's from websites and merge them into one single PDF 
 ## Installation
