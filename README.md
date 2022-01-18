@@ -1,4 +1,4 @@
-# Kannada-E-Mag
+# Kannada-E-Mag <img src="https://media.baamboozle.com/uploads/images/49617/1632503260_172420_gif-url.gif" width="45px">
 ## Description
 A tool which downloads magazine PDF's from websites and merge them into one single PDF 
 ## Installation
@@ -8,3 +8,5 @@ cd kannada-e-mag
 chmod +x install.sh
 ./install.sh
 ```
+## Screenshots
+![Homepage](https://github.com/viveknadig/kannada-e-mag/blob/main/screenshot.png)
