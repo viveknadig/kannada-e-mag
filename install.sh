@@ -33,11 +33,11 @@ else
 	clear
 fi
 
-REQUIRED_PKG="ghostscript" #chechking applications
+REQUIRED_PKG="poppler-utils" #chechking applications
 PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
 # echo Checking for $REQUIRED_PKG: $PKG_OK
 if [ "" = "$PKG_OK" ]; then
-  echo "No ghostscript found. Setting up $REQUIRED_PKG,Please Wait......"
+  echo "No Pdfunite found. Setting up $REQUIRED_PKG,Please Wait......"
   sudo apt-get --yes install $REQUIRED_PKG > /dev/null
   sleep 1
   clear
